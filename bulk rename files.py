@@ -2,6 +2,7 @@ import os
 
 def main():
     i = 0
+    # need repair
     path = "C:/Users/NatashaNewbold/Code/Mini Python projects/test virtual/bulk rename/"
     for filename in os.listdir(path):
         my_dest = "img" + str(i) + ".jpg"
